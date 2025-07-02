@@ -2,10 +2,17 @@
 
 # 🎒 AI Smart Safety Bag
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green)](#)
 [![Last Commit](https://img.shields.io/github/last-commit/Muhammad-Ahmed-Rayyan/AI-Smart-Safety-Bag)](https://github.com/Muhammad-Ahmed-Rayyan/AI-Smart-Safety-Bag/commits/main)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey)](#)
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
+![languages](https://img.shields.io/github/languages/count/Muhammad-Ahmed-Rayyan/AI-Hotel-Management-System)
+
+<br>
+
+Built with the tools and technologies:  
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Mediapipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=for-the-badge&logo=google&logoColor=white)
 
 </div>
 
@@ -116,9 +123,9 @@ Replace this with your own absolute path.
 - Detects unauthorized opening / motion
 - Reads live GPS location via NEO-6M module
 - Sends alerts with:
-   1. Intruder snapshot
-   2. Latest GPS data
-   3. Tilt detection status
+   - Intruder snapshot
+   -  Latest GPS data
+   -   Tilt detection status
 - Cooldown system to prevent spam notifications
 
 ---
