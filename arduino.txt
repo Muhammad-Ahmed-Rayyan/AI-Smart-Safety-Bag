@@ -1,0 +1,27 @@
+#include <SoftwareSerial.h>
+
+#define tiltPin 2
+SoftwareSerial gpsSerial(4, 3); // RX, TX for GPS
+
+bool tiltDetected = false;
+
+void setup() {
+  Serial.begin(9600);
+  gpsSerial.begin(9600);
+  pinMode(tiltPin, INPUT);
+  Serial.println("System Ready");
+}
+
+void loop() {
+  if (digitalRead(tiltPin) == HIGH) {
+    Serial.println("TILT"); // Signal to Python
+    delay(500); // Wait for GPS data
+  }
+
+  if (gpsSerial.available()) {
+    String gpsData = gpsSerial.readStringUntil('\n');
+    if (gpsData.startsWith("$GPGGA")) {
+      Serial.println("GPS:" + gpsData); // Send GPS data to Python
+    }
+  }
+}
