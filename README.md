@@ -7,7 +7,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/Muhammad-Ahmed-Rayyan/AI-Smart-Safety-Bag)](https://github.com/Muhammad-Ahmed-Rayyan/AI-Smart-Safety-Bag/commits/main)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](#)
 
-<br>
+</div>
 
 ---
 
@@ -15,9 +15,9 @@
 
 This is an **AI-powered Smart Safety Bag system** designed to improve personal security using:
 
-✅ **Arduino + GPS + Tilt sensor** for motion and location tracking  
-✅ **Python + OpenCV + Mediapipe** for intruder face detection  
-✅ **IFTTT & Imgbb** for sending real-time intrusion alerts with image & GPS data to your phone
+- **Arduino + GPS + Tilt sensor** for motion and location tracking  
+- **Python + OpenCV + Mediapipe** for intruder face detection  
+- **IFTTT & Imgbb** for sending real-time intrusion alerts with image & GPS data to your phone
 
 Perfect for students, travelers, or anyone wanting extra security for their belongings.
 
