@@ -69,3 +69,56 @@ git clone https://github.com/Muhammad-Ahmed-Rayyan/AI-Smart-Safety-Bag.git
 cd AI-Smart-Safety-Bag
 
 pip install -r requirements.txt
+```
+
+### 🔑 API Setup
+
+You'll need to create accounts and get API keys for:
+- **IFTTT Webhooks** – to send intrusion notifications (get your key from the IFTTT Webhooks service).
+- **Imgbb** – to upload images and get public image URLs.
+
+Update `IFTTT_KEY` and `IMGBB_API_KEY` in your `test.py` script accordingly.
+
+---
+
+## ⚙️ Run the Project
+
+Make sure your Arduino is connected via USB, webcam is ready, and the Arduino code is already uploaded.
+
+Then simply run:
+
+```bash
+python test.py
+```
+
+---
+
+### 📷 Image Matching
+
+Place your authorized person’s face image at the path specified in test.py.
+
+```bash
+reference_img = cv2.imread(r'C:\Users\Desktop\PROJ\image.jpg')
+```
+
+Replace this with your own absolute path.
+
+---
+
+### 🌐 Notifications & Hosting
+
+- Uses Imgbb API to upload intruder images.
+- Uses IFTTT webhook to push real-time alerts with image + GPS data to your device.
+
+---
+
+### ⚡ Highlights
+- Detects unauthorized opening / motion
+- Reads live GPS location via NEO-6M module
+- Sends alerts with:
+   1. Intruder snapshot
+   2. Latest GPS data
+   3. Tilt detection status
+- Cooldown system to prevent spam notifications
+
+---
