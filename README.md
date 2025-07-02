@@ -4,15 +4,15 @@
 
 [![Last Commit](https://img.shields.io/github/last-commit/Muhammad-Ahmed-Rayyan/AI-Smart-Safety-Bag)](https://github.com/Muhammad-Ahmed-Rayyan/AI-Smart-Safety-Bag/commits/main)
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
-![languages](https://img.shields.io/github/languages/count/Muhammad-Ahmed-Rayyan/AI-Hotel-Management-System)
+![languages](https://img.shields.io/github/languages/count/Muhammad-Ahmed-Rayyan/AI-Smart-Safety-Bag)
 
 <br>
 
 Built with the tools and technologies:  
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-e31e1e?style=for-the-badge&logo=opencv&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Mediapipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=for-the-badge&logo=google&logoColor=white)
+![Mediapipe](https://img.shields.io/badge/MediaPipe-5C3EE8?style=for-the-badge&logo=google&logoColor=white)
 
 </div>
 
