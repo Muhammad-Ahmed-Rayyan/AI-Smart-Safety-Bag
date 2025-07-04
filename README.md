@@ -129,3 +129,9 @@ Replace this with your own absolute path.
 - Cooldown system to prevent spam notifications
 
 ---
+
+<div align="center">
+
+⭐ Found this project useful? Give it a star on GitHub to let us know!
+
+</div>
