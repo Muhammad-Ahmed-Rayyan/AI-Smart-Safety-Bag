@@ -1,5 +1,5 @@
 <div align="center">
-
+ 
 # 🎒 AI Smart Safety Bag
 
 [![Last Commit](https://img.shields.io/github/last-commit/Muhammad-Ahmed-Rayyan/AI-Smart-Safety-Bag)](https://github.com/Muhammad-Ahmed-Rayyan/AI-Smart-Safety-Bag/commits/main)
